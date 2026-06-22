@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "MultiTenant.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MultiTenant.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MultiTenant.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MultiTenant.Application.dll": {}
+        }
+      },
+      "MultiTenant.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MultiTenant.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MultiTenant.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MultiTenant.Application/1.0.0": {
+      "type": "project",
+      "path": "../MultiTenant.Application/MultiTenant.Application.csproj",
+      "msbuildProject": "../MultiTenant.Application/MultiTenant.Application.csproj"
+    },
+    "MultiTenant.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MultiTenant.Domain/MultiTenant.Domain.csproj",
+      "msbuildProject": "../MultiTenant.Domain/MultiTenant.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MultiTenant.Application >= 1.0.0",
+      "MultiTenant.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Preciousz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Preciousz\\source\\repos\\MultiTenant-SaaS-API System\\src\\MultiTenant.Infrastructure\\MultiTenant.Infrastructure.csproj",
+      "projectName": "MultiTenant.Infrastructure",
+      "projectPath": "C:\\Users\\Preciousz\\source\\repos\\MultiTenant-SaaS-API System\\src\\MultiTenant.Infrastructure\\MultiTenant.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Preciousz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Preciousz\\source\\repos\\MultiTenant-SaaS-API System\\src\\MultiTenant.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Preciousz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Preciousz\\source\\repos\\MultiTenant-SaaS-API System\\src\\MultiTenant.Application\\MultiTenant.Application.csproj": {
+              "projectPath": "C:\\Users\\Preciousz\\source\\repos\\MultiTenant-SaaS-API System\\src\\MultiTenant.Application\\MultiTenant.Application.csproj"
+            },
+            "C:\\Users\\Preciousz\\source\\repos\\MultiTenant-SaaS-API System\\src\\MultiTenant.Domain\\MultiTenant.Domain.csproj": {
+              "projectPath": "C:\\Users\\Preciousz\\source\\repos\\MultiTenant-SaaS-API System\\src\\MultiTenant.Domain\\MultiTenant.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

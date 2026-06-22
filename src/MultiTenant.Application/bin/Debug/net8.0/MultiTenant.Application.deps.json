@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MultiTenant.Application/1.0.0": {
+        "dependencies": {
+          "MultiTenant.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MultiTenant.Application.dll": {}
+        }
+      },
+      "MultiTenant.Domain/1.0.0": {
+        "runtime": {
+          "MultiTenant.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MultiTenant.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MultiTenant.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
