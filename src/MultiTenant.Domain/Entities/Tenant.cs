@@ -5,7 +5,7 @@ public class Tenant:BaseEntity
 {
     public string Name { get; set; } = string.Empty;
 
-    public string SubscriptionPlan { get; set; } = "Basic";
+    public SubscriptionPlan SubscriptionPlan { get; set; } = SubscriptionPlan.Basic;
 
-    public List<User> Users { get; set; } = new();
+    public ICollection<User> Users { get; set; } = new List<User>();
 }
